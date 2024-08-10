@@ -32,9 +32,9 @@ const ProjectSection = () => {
     <div className='mx-auto pt-28' id='projectsection'>
         <h2 className='text-3xl font-semibold mb-12 text-center'>My Projects</h2>
         <div className='md:flex md:justify-center md:items-center md:gap-16 md:flex-wrap'>
-            {projects.map((project) => (
-                <div className='w-96'>
-                <ProjectCard key={project.title} {...project}/>
+            {projects.map((project,index) => (
+                <div className='w-96' key={index}>
+                <ProjectCard {...project}/>
                 </div>
             ))}
         </div>
