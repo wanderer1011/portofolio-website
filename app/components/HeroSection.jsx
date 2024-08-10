@@ -33,7 +33,9 @@ const HeroSection = () => {
          <button className="px-4 py-2 w-full sm:w-fit rounded-md border bg-[#ff6262] text-white font-bold text-sm hover:-translate-y-1 transform transition duration-200 hover:shadow-md mr-4 mb-4 sm:mb-0 md:text-xl">
             Hire Me
          </button>
-         <button className="px-4 py-2 w-full sm:w-fit rounded-md border bg-[#ff6262] text-white font-bold text-sm hover:-translate-y-1 transform transition duration-200 hover:shadow-md md:text-xl">
+         <button className="px-4 py-2 w-full sm:w-fit rounded-md border bg-[#ff6262] text-white font-bold text-sm hover:-translate-y-1 transform transition duration-200 hover:shadow-md md:text-xl"
+         onClick={() => window.open('./resume.pdf')}
+         >
             Resume
          </button>
          </div>
