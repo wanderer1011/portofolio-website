@@ -15,7 +15,7 @@ const projects = [
         title: 'Personal Portfolio',
         description: 'Portfolio website is crafted using React.js, offering a sleek and responsive design. It showcases my skills, projects, and experience with interactive elements and dynamic content. The React framework ensures a smooth, fast-loading user experience, making my portfolio both visually appealing and technically robust.',
         projectLink: 'https://www.google.com',
-        projectCode: 'https://www.google.com'
+        projectCode: 'https://github.com/wanderer1011/portofolio-website'
     },
     {
         imgURL: '/images/projects/p3.png',
