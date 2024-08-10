@@ -22,11 +22,30 @@ const tabData = [
   },
   {
     title: 'Experience',
-    content: 'Lorem experience dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+    content: (
+      <div>
+      <h1 className='font-semibold'>Self-Taught Web Developer</h1>
+      <p>June 2024 – Present</p>
+      <ul className='list-disc'>
+        <li>Developed a personal portfolio website using Next.js and Tailwind CSS</li>
+        <li>Created a full-stack gaming forum using EJS, Node.js, Express, and PostgreSQL</li>
+        <li>Successfully gained entry into the Dev Club at IIT Hyderabad through the quality of my projects and dedication to learning.</li>
+      </ul>
+      </div>
+    )
   },
   {
     title: 'Education',
-    content: 'Lorem education dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+    content: (
+      <div>
+      <h1 className='font-semibold'>Indian Institute of Technology Hyderabad</h1>
+      <p>Btech in Mathematics and Computing</p>
+      <p>July 2023 – Present</p>
+      <ul className='list-disc'>
+        <li>Relevant Coursework: Data Structures and Algorithms, Linear Algebra, Probability and Statistics, Real Analysis.</li>
+      </ul>
+      </div>
+    )
   }
 ]
 
